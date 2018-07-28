@@ -6,12 +6,12 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-DemoApplication<demo>",
+            "name": "BootApplication",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "com.example.demo.DemoApplication",
+            "mainClass": "com.jcip.BootApplication",
             "projectName": "demo",
             "args": ""
         },
