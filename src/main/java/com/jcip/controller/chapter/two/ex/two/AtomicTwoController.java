@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping(value={"/2/2/atomic"})
-public class AtomicController {
+public class AtomicTwoController {
 
 	private AtomicLong count = new AtomicLong(0);
 
