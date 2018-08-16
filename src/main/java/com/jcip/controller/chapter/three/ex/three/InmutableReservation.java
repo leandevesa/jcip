@@ -29,9 +29,10 @@ public class InmutableReservation {
         return creationDate;
     }
 
+/*  TODO: Se podria devolver clonado
     public List<CollectAttempt> getCollectAttempts() {
         return collectAttempts;
-    }
+    } */
 
     public void addCollectionAttempt(CollectAttempt one) {
         collectAttempts.add(one);
